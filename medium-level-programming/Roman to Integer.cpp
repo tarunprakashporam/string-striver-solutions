@@ -6,15 +6,15 @@ public:
         };
         int sum = 0;
         int n= s.size();
- for(int i = 0 ;i<n;i++){
-    if(m[s[i]] < m[s[i+1]]){
+     for(int i = 0 ;i<n;i++){
+                 if(m[s[i]] < m[s[i+1]]){
                  sum = sum -m[s[i]];
-     }
+                    }
      else if(m[s[i]] >= m[s[i+1]]){
                  sum = sum + m[s[i]];
      }
  }
- return sum ;
+     return sum ;
 
 
 
